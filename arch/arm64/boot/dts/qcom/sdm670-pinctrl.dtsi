@@ -2821,7 +2821,6 @@
 			};
 		};
 
-<<<<<<< HEAD
 		cam_sensor_ir_led_on: cam_sensor_ir_led_on {
 			/*IR_LED*/
 			mux {
@@ -2851,7 +2850,9 @@
 						"gpio107", "gpio110";
 				bias-pull-down; /* PULL DOWN */
 				drive-strength = <2>; /* 2 MA */
-=======
+                        };
+                };
+
 		ts_mux {
 			ts_active: ts_active {
 				mux {
@@ -2892,7 +2893,6 @@
 					bias-disable;
 					input-enable;
 				};
->>>>>>> 898374893838... ARM64/dts: Import cleaned Xiaomi SDM710 changes
 			};
 		};
 
